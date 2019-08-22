@@ -1,5 +1,5 @@
 // var ws = new WebSocket("ws://ip:端口");
-var ws = new WebSocket("ws://192.168.176.128:9001");
+var ws = new WebSocket("ws://localhost:9001");
 ws.onmessage = function (e){
     var msg = JSON.parse(e.data);
     console.log(e.data);

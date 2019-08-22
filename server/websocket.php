@@ -28,7 +28,7 @@ class WebSocketServer{
 
     //数据库连接
     private function connect_db(){
-        $con=mysqli_connect("localhost","root","123456","chatroom");
+        $con=mysqli_connect("localhost","root","root","chatroom");
         // 检查连接
         if (!$con) {
             die("连接错误: " . mysqli_connect_error());
