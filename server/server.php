@@ -8,5 +8,5 @@
 
 require_once 'websocket.php';
 
-$ws=new WebSocketServer('0.0.0.0',9001);
+$ws=new WebSocketServer('0.0.0.0',1234);
 $ws->run();
